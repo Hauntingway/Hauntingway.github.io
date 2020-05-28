@@ -33,6 +33,29 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+.intro__inner {
+  width: 100%;
+  max-width: 880px;
+  margin: 0 auto;
+  
+}
+
+.intro__suptitle {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 72px;
+  color: #fff;
+  
+}
+
+.intro__title {
+  color: #fff;
+  font-size: 150px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+}
+
 .header {
   background-color: #11000a;
   width: 100%;
