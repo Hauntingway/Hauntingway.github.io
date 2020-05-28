@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 3px;
     
-  background-color: #ffd82d;
+  background-color: #ffee91;
   opacity: 0;
   
   posotion: absolute;
@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav__link:hover {
-  color: #ffd82d;
+  color: #ffee91;
 }
 
 .nav__link:hover:after {
