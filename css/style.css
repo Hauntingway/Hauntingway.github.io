@@ -14,3 +14,9 @@ body
 *:after {
   box-sizing: border-box;
 }
+
+.container {
+  width: 100%;
+  max-width: 1152px;
+  margin: 0 auto;
+}
