@@ -207,3 +207,12 @@ h1, h2, h3, h4, h5, h6 {
 .app {
   align: center;
 }
+
+.interface {
+  display: flex;
+  justify-content: space-between;
+}
+
+.interface_item {
+  width: 15%;
+}
