@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   background-color: #11000a;
   width: 100%;
-  padding-top: 35px;
+  padding-top: 30px;
   position: absolute;
   top: 0;
   left: 0;
@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   text-transorm: uppercase;
 }
 
