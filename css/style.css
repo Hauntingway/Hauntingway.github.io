@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   width: 100%;
+  padding-top: 25px;
   position: absolute;
   top: 0;
   left: 0;
@@ -45,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
@@ -63,12 +65,32 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   vertical-align: top;
   margin: 0 15px;
+  position: relative;
   color: #fff;
   text-decoration: none;
   
   transition: color .3s linear;
 }
 
+.nav__link:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  display: none;
+    
+  background-color: #ffd82d;
+  
+  posotion: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
 .nav__link:hover {
   color: #ffd82d;
+}
+
+.nav__link:hover:after {
+  display: block;
 }
