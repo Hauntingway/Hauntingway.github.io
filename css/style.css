@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ffee91;
   opacity: 0;
   
-  posotion: absolute;
+  position: absolute;
   top: 100%;
   left: 0;
   z-index: 1;
@@ -220,6 +220,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .wrapper {
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
