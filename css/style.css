@@ -40,14 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 880px;
   margin: 0 auto;
   
+  text-align: center;
 }
 
 .intro_suptitle {
   font-family: 'Caveat', cursive;
   font-size: 60px;
   color: #fff;
-  text-align: center;
-  
 }
 
 .intro__title {
@@ -55,7 +54,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 120px;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
   line-height: 1;
 }
 
@@ -132,4 +130,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__link:hover:after {
   opacity: 1;
+}
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 8px 30px;
+  
+  border: 3px solid #fff;
+  
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
