@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro_suptitle {
   font-family: 'Caveat', cursive;
-  font-size: 72px;
+  font-size: 60px;
   color: #fff;
   text-align: center;
   
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__title {
   color: #fff;
-  font-size: 150px;
+  font-size: 120px;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
