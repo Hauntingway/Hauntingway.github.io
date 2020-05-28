@@ -59,6 +59,17 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
+.intro__title:after {
+  content: "";
+  display: block;
+  width: 400px;
+  height 3px;
+  margin: 60px auto 0;
+  
+  background-color: #fff;
+  
+}
+
 .header {
   background-color: #11000a;
   width: 100%;
