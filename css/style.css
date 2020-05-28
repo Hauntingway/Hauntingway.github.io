@@ -1,7 +1,16 @@
 body
 {
+  margin: 0;
   font-family: 'Kaushan Script', cursive;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  color: #d5dbe2;
+  color: #333;
+  line-height: 1.7;
+  
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
