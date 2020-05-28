@@ -46,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Caveat', cursive;
   font-size: 60px;
   color: #fff;
+  text-align: center;
 }
 
 .intro__title {
@@ -54,6 +55,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1;
+  text-align: center;
 }
 
 .intro__title:after {
@@ -132,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  display: inline-block;
+  display: block;
   vertical-align: top;
   padding: 8px 30px;
   
@@ -143,4 +145,5 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: center;
 }
