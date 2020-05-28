@@ -105,24 +105,15 @@
     </div>
    </div>
    
-   <button class="bubbly-button">Click me!</button>
-   <script>var animateButton = function(e) {
-
-  e.preventDefault;
-  //reset animation
-  e.target.classList.remove('animate');
+   <div id="container">
+  <button class="learn-more">
+    <span class="circle" aria-hidden="true">
+      <span class="icon arrow"></span>
+    </span>
+    <a class="button-text" href="vk.com">Learn More</a>
+  </button>
+</div>
   
-  e.target.classList.add('animate');
-  setTimeout(function(){
-    e.target.classList.remove('animate');
-  },700);
-};
-
-var bubblyButtons = document.getElementsByClassName("bubbly-button");
-
-for (var i = 0; i < bubblyButtons.length; i++) {
-  bubblyButtons[i].addEventListener('click', animateButton, false);
-}</script>
    
   </div>
  </section>
