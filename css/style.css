@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 .interface {
   display: flex;
   justify-content: space-between;
-  padding 0px 0px 80px;
+  padding: 0px 0px 40px;
 }
 
 .interface_item {
