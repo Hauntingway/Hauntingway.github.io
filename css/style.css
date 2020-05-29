@@ -217,24 +217,4 @@ h1, h2, h3, h4, h5, h6 {
   width: 15%;
 }
 
-.btn__download {
-  display: block;
-  vertical-align: top;
-  padding: 8px 30px;
-  
-  border: 3px solid #fff;
-  
-  font-size: 14px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  transition: background .2s linear, color .2s linear;
-}
 
-.btn__download:hover {
-  background-color: #78faa1;
-  color: #333;
-  border: 0px;
-}
