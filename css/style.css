@@ -211,6 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 .interface {
   display: flex;
   justify-content: space-between;
+  padding 0px 0px 80px;
 }
 
 .interface_item {
@@ -218,7 +219,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn__download {
-  padding: 80px;
   display: block;
   vertical-align: top;
   padding: 8px 30px;
