@@ -1,2 +1,2 @@
-# Hauntingway
+# Thermazote
 Проект QuickTable
